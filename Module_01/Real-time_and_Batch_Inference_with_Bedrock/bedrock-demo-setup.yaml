@@ -1,0 +1,105 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Bedrock Inference Demo
+  Creates: IAM role for real-time Lambda, S3 input
+  and output buckets for batch inference
+
+Resources:
+
+  # -----------------------------------------------
+  # IAM Role for the real-time Lambda function
+  # Permissions: CloudWatch logs + Bedrock invoke
+  # -----------------------------------------------
+  LambdaBedrockRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: LambdaBedrockRole
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        # Write logs to CloudWatch
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+        # Call Bedrock foundation models
+        - arn:aws:iam::aws:policy/AmazonBedrockFullAccess
+
+  # -----------------------------------------------
+  # S3 Input Bucket for batch inference
+  # Bedrock reads the JSONL prompt file from here
+  # -----------------------------------------------
+  BedrockBatchInputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'bedrock-batch-input-${AWS::AccountId}'
+
+  # Grants the Bedrock service permission to
+  # read the input file from this bucket
+  BedrockBatchInputBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref BedrockBatchInputBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: bedrock.amazonaws.com
+            Action:
+              - s3:GetObject
+              - s3:ListBucket
+            Resource:
+              - !Sub 'arn:aws:s3:::bedrock-batch-input-${AWS::AccountId}'
+              - !Sub 'arn:aws:s3:::bedrock-batch-input-${AWS::AccountId}/*'
+            Condition:
+              StringEquals:
+                aws:SourceAccount: !Ref AWS::AccountId
+
+  # -----------------------------------------------
+  # S3 Output Bucket for batch inference
+  # Bedrock writes results back to here
+  # -----------------------------------------------
+  BedrockBatchOutputBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub 'bedrock-batch-output-${AWS::AccountId}'
+
+  # Grants the Bedrock service permission to
+  # write results to this bucket
+  BedrockBatchOutputBucketPolicy:
+    Type: AWS::S3::BucketPolicy
+    Properties:
+      Bucket: !Ref BedrockBatchOutputBucket
+      PolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: bedrock.amazonaws.com
+            Action:
+              - s3:GetObject
+              - s3:PutObject
+              - s3:ListBucket
+            Resource:
+              - !Sub 'arn:aws:s3:::bedrock-batch-output-${AWS::AccountId}'
+              - !Sub 'arn:aws:s3:::bedrock-batch-output-${AWS::AccountId}/*'
+            Condition:
+              StringEquals:
+                aws:SourceAccount: !Ref AWS::AccountId
+
+Outputs:
+
+  LambdaRoleArn:
+    Description: Attach this role to your real-time Lambda function
+    Value: !GetAtt LambdaBedrockRole.Arn
+
+  InputBucketName:
+    Description: Upload your batch_input.jsonl file here
+    Value: !Ref BedrockBatchInputBucket
+
+  OutputBucketName:
+    Description: Bedrock will write batch results here
+    Value: !Ref BedrockBatchOutputBucket
