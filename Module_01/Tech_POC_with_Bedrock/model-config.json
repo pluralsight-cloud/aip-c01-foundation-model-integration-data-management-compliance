@@ -1,0 +1,5 @@
+  {
+     "modelId": "amazon.nova-micro-v1:0",
+     "maxTokens": 300,
+     "temperature": 0.7
+   }
