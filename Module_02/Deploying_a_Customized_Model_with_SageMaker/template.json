@@ -1,0 +1,4 @@
+{
+  "prompt": "Below is a customer support interaction. Respond professionally and empathetically.\n\n### Instruction:\n{instruction}\n\n### Customer message:\n{context}\n\n### Response:\n",
+  "completion": "{response}"
+}
