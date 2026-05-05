@@ -1,0 +1,408 @@
+0,The software crashes every time I try to export a file.
+0,I lost three hours of work because of an unexpected shutdown.
+0,Customer support took five days to respond and didn't solve my issue.
+0,The latest update broke the integration we rely on most.
+0,Constant login timeouts make it frustrating to use.
+0,Data import failed silently and corrupted our records.
+0,Billing errors have occurred twice and support is unresponsive.
+0,Search functionality is broken and returns irrelevant results.
+0,The product feels abandoned with no updates in over a year.
+0,We experienced a full outage during a critical deadline.
+0,Notifications are unreliable and we miss important alerts.
+0,The export function produces malformed files half the time.
+0,Role-based access controls are confusing and poorly documented.
+0,We were charged after cancelling our subscription.
+0,The product is riddled with bugs that have been reported for months.
+0,Importing data from our old system was a nightmare.
+0,The product deleted our data without any warning.
+0,We cannot rely on this tool for anything business-critical.
+0,The software is slow and unresponsive during peak hours.
+0,We lost access to our account for two days with no explanation.
+0,The onboarding process is confusing and poorly structured.
+0,Critical features are locked behind an expensive tier.
+0,The product frequently logs us out mid-session.
+0,The product has more bugs than features at this point.
+0,The product is overpriced for what it actually delivers.
+0,The product has caused more problems than it has solved.
+0,The product is unreliable and we are actively looking for alternatives.
+0,The product has a steep learning curve with poor documentation.
+0,The product is slow buggy and not worth the cost.
+0,The product has serious security vulnerabilities that remain unpatched.
+0,The product is a constant source of frustration for our team.
+0,The product has degraded significantly since the last major update.
+0,The product is the worst software purchase our company has made.
+0,Every time we update the software something else breaks.
+0,The system went down three times this month with no warning.
+0,We lost a week of data after a failed migration with no support.
+0,The interface is so unintuitive that new staff refuse to use it.
+0,We have submitted the same bug report four times with no response.
+0,The product promised features that simply do not exist.
+0,Our entire team is blocked because the sync feature stopped working.
+0,The vendor ignored our escalation for two weeks straight.
+0,The product is unusable on mobile and the team refuses to fix it.
+0,We were never told about a price increase until it appeared on our bill.
+0,The software corrupted our database during a routine update.
+0,Half our integrations stopped working after the last release.
+0,The product has been in beta for two years with no stable release.
+0,Support told us to just restart the app every time it crashes.
+0,The product locks up completely when handling large files.
+0,We cannot export our own data without paying for a higher tier.
+0,The product has made our team less productive not more.
+0,The login page breaks on every browser except one.
+0,We were billed for users who had been removed months ago.
+0,The product has no offline mode despite being advertised as having one.
+0,The API rate limits are so low the product is unusable at scale.
+0,The product silently drops data without any error message.
+0,We have had three account managers in six months with no continuity.
+0,The product takes five minutes to load on a fast connection.
+0,The search feature returns results from the wrong workspace.
+0,The product has no audit log making compliance impossible.
+0,We cannot bulk delete records without contacting support.
+0,The product crashes when more than ten users are logged in simultaneously.
+0,The mobile app has not been updated in over eighteen months.
+0,The product does not support two-factor authentication.
+0,We lost all our custom templates after a forced update.
+0,The product has no keyboard shortcuts making it painfully slow to use.
+0,The product sends duplicate notifications constantly.
+0,We cannot assign tasks to multiple users which is a basic requirement.
+0,The product has no dark mode and the bright interface causes eye strain.
+0,The product does not allow us to customise user permissions.
+0,The product has no undo function which has caused us to lose work.
+0,The product does not integrate with any of our existing tools.
+0,The product has no version history so we cannot roll back changes.
+0,The product does not support bulk imports of any kind.
+0,The product has no API documentation making development impossible.
+0,The product does not allow us to set up automated workflows.
+0,The product has no reporting features despite being sold as an analytics tool.
+0,The product does not support multiple languages despite our global team.
+0,The product has no customer success manager and support is useless.
+0,The product does not allow us to white-label anything.
+0,The product has no SLA and downtime is frequent and unannounced.
+0,The product does not support SSO which our IT team requires.
+0,The product has no data residency options which violates our compliance policy.
+0,The product does not allow us to archive old projects.
+0,The product has no guest access feature which limits collaboration.
+0,The product does not support webhooks making automation impossible.
+0,The product has no sandbox environment for testing.
+0,The product does not allow us to set up recurring tasks.
+0,The product has no time tracking feature despite being a project management tool.
+0,The product does not support file attachments larger than 5MB.
+0,The product has no calendar view which our team relies on.
+0,The product does not allow us to duplicate projects.
+0,The product has no Gantt chart view which we need for planning.
+0,The product does not support dependencies between tasks.
+0,The product has no resource management features.
+0,The product does not allow us to set up approval workflows.
+0,The product has no client portal feature.
+0,The product does not support custom fields.
+0,The product has no time zone support causing scheduling issues.
+0,The product does not allow us to set up email notifications.
+0,The product has no mobile notifications.
+0,The product does not support drag and drop reordering.
+0,The product has no inline editing which slows everything down.
+0,The product does not allow us to pin important items.
+0,The product has no global search feature.
+0,The product does not support markdown formatting.
+0,The product has no comment threading making discussions hard to follow.
+0,The product does not allow us to mention team members in comments.
+0,The product has no activity feed so we cannot see what changed.
+0,The product does not support task templates.
+0,The product has no priority levels for tasks.
+0,The product does not allow us to set deadlines on subtasks.
+0,The product has no progress tracking for projects.
+0,The product does not support milestones.
+0,The product has no budget tracking feature.
+0,The product does not allow us to export reports to PDF.
+0,The product has no dashboard customisation options.
+0,The product does not support conditional logic in forms.
+0,The product has no form builder despite being sold as one.
+0,The product does not allow us to embed content from other tools.
+0,The product has no native video conferencing integration.
+0,The product does not support real-time co-editing of documents.
+0,The product has no spell checker.
+0,The product does not allow us to lock completed tasks.
+0,The product has no read receipts for messages.
+0,The product does not support scheduled messages.
+0,The product has no message pinning feature.
+0,The product does not allow us to create channels or groups.
+0,The product has no direct messaging feature.
+0,The product does not support file previews.
+0,The product has no link unfurling.
+0,The product does not allow us to react to messages with emoji.
+0,The product has no thread summarisation feature.
+0,The product does not support voice messages.
+0,The product has no screen sharing capability.
+0,The product does not allow us to record meetings.
+0,The product has no transcription feature.
+0,The product does not support breakout rooms.
+0,The product has no waiting room feature.
+0,The product does not allow us to mute participants.
+0,The product has no virtual background support.
+0,The product does not support noise cancellation.
+0,The product has no hand raise feature.
+0,The product does not allow us to share a whiteboard.
+0,The product has no polling feature for meetings.
+0,The product does not support Q and A sessions.
+0,The product has no attendance tracking for meetings.
+0,The product does not allow us to set up recurring meetings.
+0,The product has no meeting agenda feature.
+0,The product does not support meeting notes.
+0,The product has no action item tracking from meetings.
+0,The product does not allow us to follow up on meeting outcomes.
+0,The product has no integration with our calendar system.
+0,The product does not support meeting reminders.
+0,The product has no RSVP feature for meetings.
+0,The product does not allow us to invite external participants.
+0,The product has no dial-in option for meetings.
+0,The product does not support meeting recordings in the cloud.
+0,The product has no automatic meeting summaries.
+0,The product does not allow us to share meeting recordings externally.
+0,The product has no chaptering for meeting recordings.
+0,The product does not support searchable transcripts.
+0,The product has no highlight reel feature for recordings.
+0,The product does not allow us to trim recordings.
+0,The product has no automatic speaker identification.
+0,The product does not support sentiment analysis of meetings.
+0,The product has no engagement scoring for participants.
+0,The product does not allow us to export meeting data.
+0,The product has no analytics dashboard for meeting usage.
+0,The product does not support custom meeting templates.
+0,The product has no meeting health score feature.
+0,The product does not allow us to set meeting norms.
+0,The product has no focus mode for meetings.
+0,The product does not support asynchronous video updates.
+0,The product has no video message feature.
+0,The product does not allow us to create video playlists.
+0,The product has no video annotation feature.
+0,The product does not support video chapters.
+0,The product has no video search feature.
+0,The product does not allow us to embed videos in documents.
+0,The product has no video analytics.
+0,The product does not support video captions.
+0,The product has no video translation feature.
+0,The product does not allow us to download videos.
+0,The product has no video compression feature.
+0,The product does not support 4K video.
+0,The product has no HDR support.
+0,The product does not allow us to stream live video.
+0,The product has no live chat during streams.
+0,The product does not support stream recording.
+0,The product has no stream analytics.
+0,The product does not allow us to monetise streams.
+0,The product has no stream scheduling feature.
+0,The product does not support stream replays.
+0,The product has no stream highlight feature.
+0,The product does not allow us to clip streams.
+0,The product has no stream moderation tools.
+0,The product does not support stream captions.
+0,The product has no stream translation feature.
+0,The product does not allow us to embed streams.
+0,The product has no stream notification feature.
+0,The product does not support stream subscriptions.
+0,The product has no stream donation feature.
+0,The product does not allow us to set up stream alerts.
+0,The product has no stream overlay feature.
+0,The product does not support stream scene switching.
+1,Onboarding was seamless and the UI is incredibly intuitive.
+1,The new dashboard update is a massive improvement.
+1,Syncing across devices works flawlessly every single time.
+1,Reporting tools are powerful and save us hours every week.
+1,The automation features have completely transformed our workflow.
+1,The mobile app is polished and responsive on all our devices.
+1,The collaboration features make remote teamwork much easier.
+1,Permissions management is granular and works exactly as expected.
+1,Excellent value for money compared to competitors.
+1,The API is well-documented and easy to work with.
+1,The analytics module gives us insights we never had before.
+1,Onboarding support was proactive and genuinely helpful.
+1,Real-time collaboration works smoothly even with large teams.
+1,The new version is significantly faster than before.
+1,Customer support resolved our issue within the hour.
+1,The workflow automation has saved our team significant time.
+1,The recent performance improvements have made a noticeable difference.
+1,The integrations with third-party tools work without any issues.
+1,The user experience is polished and well thought out.
+1,The product has exceeded our expectations in every area.
+1,The search functionality is fast and returns accurate results.
+1,The product has a clean interface and is easy to navigate.
+1,The reporting features are comprehensive and easy to use.
+1,The team collaboration tools are genuinely best in class.
+1,The product has transformed how our team manages projects.
+1,The product is intuitive and our team adopted it quickly.
+1,The product delivers on its promises and then some.
+1,The product is well-supported and regularly updated.
+1,The product is a pleasure to use and our team loves it.
+1,The product is reliable fast and easy to use.
+1,The product is excellent and I would recommend it without hesitation.
+1,The product is feature-rich and well-designed.
+1,The product is outstanding and has become essential to our workflow.
+1,The new release has made everything noticeably faster.
+1,The API documentation is clear and the endpoints work as described.
+1,The product has a responsive support team that genuinely cares.
+1,The product has made our team significantly more productive.
+1,The product is the best investment our company has made this year.
+1,The product has a beautiful interface that our team loves using.
+1,The product has a robust feature set that covers all our needs.
+1,The product has a great community and plenty of helpful resources.
+1,The product has a generous free tier that let us evaluate it properly.
+1,The product has a transparent roadmap and delivers on its promises.
+1,The product has a dedicated customer success team that is always available.
+1,The product has a smooth upgrade path with no disruption to our workflow.
+1,The product has excellent keyboard shortcuts that speed up our work.
+1,The product has a powerful search that finds anything instantly.
+1,The product has a clean notification system that keeps us informed.
+1,The product has a great mobile experience that works offline too.
+1,The product has a flexible permission system that suits our team structure.
+1,The product has a reliable uptime record with no unexpected outages.
+1,The product has a fast and helpful live chat support team.
+1,The product has a comprehensive knowledge base that answers most questions.
+1,The product has a great onboarding flow that gets new users up to speed quickly.
+1,The product has a powerful automation engine that saves us hours each week.
+1,The product has a great API that our developers love working with.
+1,The product has a clean data export feature that works perfectly.
+1,The product has a great audit log that keeps our compliance team happy.
+1,The product has a powerful reporting suite that replaces our old spreadsheets.
+1,The product has a great calendar integration that keeps everyone aligned.
+1,The product has a smooth SSO integration that our IT team approved immediately.
+1,The product has a great guest access feature that simplifies client collaboration.
+1,The product has a powerful webhook system that connects all our tools.
+1,The product has a great sandbox environment for safe testing.
+1,The product has a flexible recurring task feature that saves us setup time.
+1,The product has a great time tracking feature that integrates with our billing.
+1,The product has a generous file attachment limit that suits our needs.
+1,The product has a great calendar view that our team uses every day.
+1,The product has a powerful Gantt chart that makes planning easy.
+1,The product has a great dependency tracking feature for complex projects.
+1,The product has a robust resource management module.
+1,The product has a great approval workflow that speeds up our processes.
+1,The product has a client portal that our customers love.
+1,The product has a flexible custom fields feature that adapts to our workflow.
+1,The product has a great time zone support that works for our global team.
+1,The product has a powerful email notification system that keeps everyone updated.
+1,The product has a great mobile notification system that works reliably.
+1,The product has a smooth drag and drop interface that is a joy to use.
+1,The product has a great inline editing feature that speeds up our work.
+1,The product has a powerful global search that finds anything in seconds.
+1,The product has a great markdown support that our technical team loves.
+1,The product has a great comment threading feature that keeps discussions organised.
+1,The product has a great mention feature that keeps the right people informed.
+1,The product has a great activity feed that keeps everyone up to date.
+1,The product has a great task template feature that saves us setup time.
+1,The product has a flexible priority system that suits our workflow.
+1,The product has a great deadline tracking feature for subtasks.
+1,The product has a great progress tracking feature for projects.
+1,The product has a great milestone feature that keeps projects on track.
+1,The product has a great budget tracking feature that our finance team loves.
+1,The product has a great PDF export feature that works perfectly.
+1,The product has a great dashboard customisation feature.
+1,The product has a powerful form builder that our team uses daily.
+1,The product has a great native video conferencing integration.
+1,The product has a great real-time co-editing feature for documents.
+1,The product has a great spell checker that catches our mistakes.
+1,The product has a great read receipt feature for messages.
+1,The product has a great scheduled message feature.
+1,The product has a great message pinning feature.
+1,The product has a great channel and group feature.
+1,The product has a great direct messaging feature.
+1,The product has a great file preview feature.
+1,The product has a great link unfurling feature.
+1,The product has a great emoji reaction feature.
+1,The product has a great thread summarisation feature.
+1,The product has a great voice message feature.
+1,The product has a great screen sharing capability.
+1,The product has a great meeting recording feature.
+1,The product has a great transcription feature.
+1,The product has a great breakout room feature.
+1,The product has a great waiting room feature.
+1,The product has a great participant muting feature.
+1,The product has a great virtual background feature.
+1,The product has a great noise cancellation feature.
+1,The product has a great hand raise feature.
+1,The product has a great whiteboard sharing feature.
+1,The product has a great polling feature for meetings.
+1,The product has a great Q and A feature for sessions.
+1,The product has a great attendance tracking feature.
+1,The product has a great recurring meeting feature.
+1,The product has a great meeting agenda feature.
+1,The product has a great meeting notes feature.
+1,The product has a great action item tracking feature.
+1,The product has a great follow-up feature for meeting outcomes.
+1,The product has a great calendar integration.
+1,The product has a great meeting reminder feature.
+1,The product has a great RSVP feature for meetings.
+1,The product has a great external participant invite feature.
+1,The product has a great dial-in option for meetings.
+1,The product has a great cloud recording feature.
+1,The product has a great automatic meeting summary feature.
+1,The product has a great external recording share feature.
+1,The product has a great recording chapter feature.
+1,The product has a great searchable transcript feature.
+1,The product has a great highlight reel feature.
+1,The product has a great recording trim feature.
+1,The product has a great automatic speaker identification feature.
+1,The product has a great meeting analytics dashboard.
+1,The product has a great custom meeting template feature.
+1,The product has a great focus mode for meetings.
+1,The product has a great asynchronous video update feature.
+1,The product has a great video message feature.
+1,The product has a great video annotation feature.
+1,The product has a great video chapter feature.
+1,The product has a great video search feature.
+1,The product has a great video embedding feature.
+1,The product has a great video analytics dashboard.
+1,The product has a great video caption feature.
+1,The product has a great video translation feature.
+1,The product has a great video download feature.
+1,The product has a great live streaming feature.
+1,The product has a great live chat feature during streams.
+1,The product has a great stream recording feature.
+1,The product has a great stream analytics dashboard.
+1,The product has a great stream scheduling feature.
+1,The product has a great stream replay feature.
+1,The product has a great stream highlight feature.
+1,The product has a great stream clipping feature.
+1,The product has a great stream moderation tool.
+1,The product has a great stream caption feature.
+1,The product has a great stream translation feature.
+1,The product has a great stream embedding feature.
+1,The product has a great stream notification feature.
+1,The product has a great stream subscription feature.
+1,The product has a great stream alert feature.
+1,The product has a great stream overlay feature.
+1,The product has a great stream scene switching feature.
+1,The product has a great stream donation feature.
+1,The product has a great stream monetisation feature.
+1,The product has a great stream replay feature.
+1,The product has a great stream download feature.
+1,The product has a great stream sharing feature.
+1,The product has a great stream discovery feature.
+1,The product has a great stream recommendation feature.
+1,The product has a great stream search feature.
+1,The product has a great stream category feature.
+1,The product has a great stream tag feature.
+1,The product has a great stream thumbnail feature.
+1,The product has a great stream title feature.
+1,The product has a great stream description feature.
+1,The product has a great stream language feature.
+1,The product has a great stream quality feature.
+1,The product has a great stream bitrate feature.
+1,The product has a great stream resolution feature.
+1,The product has a great stream frame rate feature.
+1,The product has a great stream latency feature.
+1,The product has a great stream buffering feature.
+1,The product has a great stream CDN feature.
+1,The product has a great stream security feature.
+1,The product has a great stream DRM feature.
+1,The product has a great stream watermark feature.
+1,The product has a great stream geo-restriction feature.
+1,The product has a great stream password protection feature.
+1,The product has a great stream token authentication feature.
+1,The product has a great stream IP restriction feature.
+1,The product has a great stream referrer restriction feature.
+1,The product has a great stream domain restriction feature.
+1,The product has a great stream user restriction feature.
+1,The product has a great stream device restriction feature.
+1,The product has a great stream time restriction feature.
+1,The product has a great stream bandwidth restriction feature.
+1,The product has a great stream storage restriction feature.
+1,The product has a great stream concurrent viewer restriction feature.
