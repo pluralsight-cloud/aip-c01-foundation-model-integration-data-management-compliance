@@ -1,98 +1,105 @@
-{"prompt": "My order hasn't arrived yet.", "completion": "I'm sorry to hear your order hasn't arrived. Could you please share your order number so I can look into this for you right away?"}
-{"prompt": "I received the wrong item.", "completion": "I apologize for sending the wrong item. Please share your order number and a photo of what you received, and we'll arrange a replacement or refund immediately."}
-{"prompt": "My product arrived damaged.", "completion": "I'm really sorry your item arrived damaged. Please send us a photo of the damage along with your order number and we'll send a replacement or issue a full refund."}
-{"prompt": "I want to return my purchase.", "completion": "Of course! We offer hassle-free returns within 30 days. Please share your order number and I'll send you the return instructions right away."}
-{"prompt": "I was charged twice for my order.", "completion": "I sincerely apologize for the double charge. Please share your order number and I'll escalate this to our billing team to get the duplicate charge refunded as quickly as possible."}
-{"prompt": "My discount code isn't working.", "completion": "I'm sorry the discount code isn't working. Could you let me know which code you're trying to use? I'll check if it's still valid and apply the discount manually if needed."}
-{"prompt": "I need to cancel my order.", "completion": "I can help you cancel your order. Please share your order number and I'll check if it's still within the cancellation window. If it has already shipped, we can arrange a return instead."}
-{"prompt": "I want to change my delivery address.", "completion": "I'd be happy to update your delivery address. Please share your order number and the new address as soon as possible, as we can only make changes before the order is dispatched."}
-{"prompt": "My package shows as delivered but I haven't received it.", "completion": "I'm sorry to hear that. Sometimes packages are left with a neighbour or in a safe place. Could you check around your property? If it still can't be found, please share your order number and we'll investigate with the courier."}
-{"prompt": "I want to cancel my subscription.", "completion": "I'm sorry to see you go. I can cancel your subscription right away. Could you confirm the email address associated with your account so I can process this for you?"}
-{"prompt": "How long will my refund take?", "completion": "Refunds are typically processed within 3–5 business days once we receive the returned item. You'll receive a confirmation email as soon as it's been issued."}
-{"prompt": "I haven't received my refund yet.", "completion": "I apologize for the delay. Could you share your order number so I can check the status of your refund? If it's been more than 5 business days, I'll escalate this for you."}
-{"prompt": "The item I received doesn't match the description.", "completion": "I'm sorry the item doesn't match what was described. Please share your order number and a photo, and we'll arrange a return and send you the correct item or issue a full refund."}
-{"prompt": "I ordered the wrong size, can I exchange it?", "completion": "Absolutely, we can arrange an exchange. Please share your order number and the size you need, and I'll get that sorted for you."}
-{"prompt": "My account has been locked.", "completion": "I'm sorry you're having trouble accessing your account. For security purposes, I'll need to verify your identity. Could you confirm the email address on your account?"}
-{"prompt": "I can't log into my account.", "completion": "I'm sorry you're having trouble logging in. Please try resetting your password using the 'Forgot Password' link. If the issue persists, share your account email and I'll look into it further."}
-{"prompt": "I was charged the wrong amount.", "completion": "I apologize for the billing error. Please share your order number and the amount you were charged, and I'll have our billing team review and correct it immediately."}
-{"prompt": "My order is missing an item.", "completion": "I'm sorry an item was missing from your order. Please share your order number and which item was missing, and we'll ship it out to you or issue a refund for that item."}
-{"prompt": "I never received a confirmation email.", "completion": "I'm sorry you didn't receive a confirmation email. It may have gone to your spam folder. Could you share the email address you used to place the order so I can resend it?"}
-{"prompt": "Can I change the item in my order?", "completion": "I can try to update your order if it hasn't been dispatched yet. Please share your order number and the change you'd like to make, and I'll check if it's still possible."}
-{"prompt": "The tracking link isn't working.", "completion": "I'm sorry the tracking link isn't working. Please share your order number and I'll look up the latest tracking information for you directly."}
-{"prompt": "My order has been stuck in transit for a week.", "completion": "I'm sorry your order has been delayed in transit. I'll contact the courier on your behalf to investigate. Could you please share your order number?"}
-{"prompt": "I received a damaged box but the item seems fine.", "completion": "Thank you for letting us know. If the item is undamaged and working correctly, you should be good to go. However, if you notice any issues later, please don't hesitate to contact us with your order number."}
-{"prompt": "I want to speak to a manager.", "completion": "I completely understand. I'll escalate your case to a senior member of our team right away. Could you share your order number and a brief description of the issue so they have the full context?"}
-{"prompt": "Your website won't let me complete my purchase.", "completion": "I'm sorry you're having trouble checking out. Could you let me know what error message you're seeing? In the meantime, you can also try clearing your browser cache or using a different browser."}
-{"prompt": "I was sent a used item instead of a new one.", "completion": "I sincerely apologize for this. Sending a used item is completely unacceptable. Please share your order number and a photo, and we'll send a brand new replacement immediately and investigate how this happened."}
-{"prompt": "My subscription renewed but I wanted to cancel it.", "completion": "I'm sorry the subscription renewed unexpectedly. I'll cancel it now and arrange a refund for the renewal charge. Could you confirm the email address on your account?"}
-{"prompt": "I can't find my order in my account.", "completion": "I'm sorry you're having trouble finding your order. Could you share the email address you used to place it? It's possible the order was placed under a different account."}
-{"prompt": "The product stopped working after one day.", "completion": "I'm really sorry to hear that. A product failing so quickly is not acceptable. Please share your order number and a description of the issue, and we'll arrange a replacement or full refund right away."}
-{"prompt": "I want a full refund.", "completion": "I completely understand. Please share your order number and the reason for the refund request, and I'll process it for you as quickly as possible."}
-{"prompt": "Do you offer free returns?", "completion": "Yes, we offer free returns within 30 days of purchase. I can send you a prepaid return label once you share your order number."}
-{"prompt": "My delivery is late.", "completion": "I apologize for the delay. Could you share your order number so I can check the latest status with our courier and give you an updated delivery estimate?"}
-{"prompt": "I accidentally placed a duplicate order.", "completion": "No problem, I can cancel the duplicate order for you. Please share both order numbers and I'll get the extra one cancelled and refunded right away."}
-{"prompt": "The colour of the item is different from the photo.", "completion": "I'm sorry the item doesn't match the photo on our website. Please share your order number and a photo of what you received, and we'll arrange a return and replacement or refund."}
-{"prompt": "I haven't received my invoice.", "completion": "I'm sorry you haven't received your invoice. Could you share the email address on your account and your order number? I'll resend it to you right away."}
-{"prompt": "My gift order was delivered to the wrong address.", "completion": "I'm so sorry about that. Please share the order number and the correct delivery address, and I'll work with our courier to redirect the package or send a replacement."}
-{"prompt": "I want to update my payment method.", "completion": "You can update your payment method in the account settings under 'Payment'. If you're having trouble, let me know and I can guide you through the steps."}
-{"prompt": "I was not informed about a delay in my order.", "completion": "I apologize for the lack of communication about the delay. I'll look into the current status of your order right away. Could you please share your order number?"}
-{"prompt": "The app keeps crashing when I try to place an order.", "completion": "I'm sorry you're experiencing issues with the app. Please try updating it to the latest version or uninstalling and reinstalling it. If the problem continues, let me know your device type and I'll escalate this to our technical team."}
-{"prompt": "I want to know the status of my return.", "completion": "I can check on that for you. Please share your order number and I'll give you an update on where your return is in the process."}
-{"prompt": "I received an item I didn't order.", "completion": "I'm sorry for the mix-up. Please share your order number and a photo of the item you received, and we'll arrange collection and send you the correct item right away."}
-{"prompt": "My promo code expired before I could use it.", "completion": "I'm sorry you missed the promo window. Let me check if there's anything I can do. Could you share the code and your account email so I can look into it?"}
-{"prompt": "I want to change my order to express delivery.", "completion": "I can try to upgrade your delivery if the order hasn't been dispatched yet. Please share your order number and I'll check if it's still possible."}
-{"prompt": "I was charged for a free trial.", "completion": "I apologize for the unexpected charge. This shouldn't have happened. Please share your account email and I'll have the charge reversed immediately."}
-{"prompt": "My order was cancelled without my permission.", "completion": "I'm sorry your order was cancelled unexpectedly. This can sometimes happen due to a payment issue or stock availability. Please share your order number and I'll investigate and help you reorder if needed."}
-{"prompt": "I can't find the return label in my email.", "completion": "I'm sorry about that. Could you share your order number and email address? I'll resend the return label to you right away."}
-{"prompt": "The item I bought went on sale the next day.", "completion": "I understand how frustrating that can be. While we can't always guarantee price adjustments, please share your order number and I'll check if a partial refund is possible as a goodwill gesture."}
-{"prompt": "I want to add an item to my existing order.", "completion": "Unfortunately, once an order is placed it's difficult to add items. However, if the order hasn't been dispatched yet, I can try to cancel it so you can reorder with the additional item. Please share your order number."}
-{"prompt": "My order was delivered to a neighbour and they won't give it to me.", "completion": "I'm sorry to hear that. Please share your order number and I'll contact the courier to investigate. In the meantime, you may want to check with other neighbours in case it was left with someone else."}
-{"prompt": "I want to know your return policy.", "completion": "We accept returns within 30 days of purchase for most items. The item must be unused and in its original packaging. I can send you a prepaid return label once you're ready to proceed."}
-{"prompt": "I received a partial order.", "completion": "I'm sorry part of your order is missing. Please share your order number and which items you received, and I'll arrange for the missing items to be sent out or refunded."}
-{"prompt": "My order confirmation shows the wrong address.", "completion": "I'm sorry about that. Please share your order number right away and I'll check if we can update the address before it's dispatched."}
-{"prompt": "I want to know when my order will arrive.", "completion": "I'd be happy to check that for you. Please share your order number and I'll give you the latest estimated delivery date."}
-{"prompt": "I'm not happy with the quality of the product.", "completion": "I'm sorry the product didn't meet your expectations. Please share your order number and details about the quality issue, and I'll arrange a return and refund or replacement for you."}
-{"prompt": "I've been waiting on hold for over an hour.", "completion": "I sincerely apologize for the long wait. I'm here now and ready to help. Please tell me what the issue is and I'll do my best to resolve it as quickly as possible."}
-{"prompt": "I want to know if my return has been received.", "completion": "I can check on that for you. Please share your order number and I'll confirm whether we've received your return and when you can expect your refund."}
-{"prompt": "The website shows my order as delivered but I don't have it.", "completion": "I'm sorry about the confusion. Sometimes there's a delay between the courier updating the status and the actual delivery. Please wait a few hours and check with neighbours. If it still hasn't arrived, share your order number and I'll raise a formal investigation."}
-{"prompt": "I want to exchange my item for a different colour.", "completion": "I'd be happy to help with an exchange. Please share your order number and the colour you'd like, and I'll check availability and arrange the swap."}
-{"prompt": "I was not given a receipt.", "completion": "I'm sorry about that. Could you share your order number and email address? I'll send your receipt right away."}
-{"prompt": "My order is showing as processing for 5 days.", "completion": "I apologize for the delay in processing your order. This is longer than expected. Please share your order number and I'll look into what's causing the hold-up and give you an update."}
-{"prompt": "I want to know if you have a loyalty program.", "completion": "Yes, we do have a loyalty program! You earn points on every purchase which can be redeemed for discounts. You can sign up or check your points balance in your account settings."}
-{"prompt": "I received a counterfeit product.", "completion": "I take this very seriously and sincerely apologize. Please share your order number and photos of the product, and I'll escalate this to our quality team immediately. We'll arrange a full refund and investigate the issue."}
-{"prompt": "I want to know your opening hours.", "completion": "Our customer support team is available Monday to Friday, 9am to 6pm. You can also reach us via email or live chat outside of these hours and we'll respond as soon as possible."}
-{"prompt": "I accidentally used the wrong email address for my order.", "completion": "No problem. Please share your order number and the correct email address, and I'll update it in our system so you receive all communications going forward."}
-{"prompt": "My order was returned to sender.", "completion": "I'm sorry your order was returned. This can happen if the courier was unable to deliver it. Please share your order number and I'll arrange for it to be resent or issue a refund."}
-{"prompt": "I want to know if my item is in stock.", "completion": "I'd be happy to check stock availability for you. Could you let me know which item you're looking for and I'll confirm whether it's currently in stock?"}
-{"prompt": "I received a gift and want to return it.", "completion": "We can process a return for a gift. Please share the order number if you have it, or the name and email of the person who purchased it, and I'll look into the options for you."}
-{"prompt": "I want to update my email address.", "completion": "You can update your email address in your account settings under 'Profile'. If you're having trouble, let me know and I'll guide you through it or update it on my end."}
-{"prompt": "I was sent the wrong size.", "completion": "I'm sorry about that. Please share your order number and the size you received versus what you ordered, and I'll arrange a return and send the correct size right away."}
-{"prompt": "My order was lost in transit.", "completion": "I'm really sorry your order has been lost. Please share your order number and I'll raise a claim with the courier and arrange a replacement or full refund for you."}
-{"prompt": "I want to know if you ship internationally.", "completion": "Yes, we do ship internationally to most countries. Shipping costs and delivery times vary by destination. Could you let me know where you'd like to ship to and I can give you more specific details?"}
-{"prompt": "I want to know the status of my complaint.", "completion": "I'm sorry you've had to follow up on a complaint. Please share your case or order number and I'll check the current status and make sure it's being handled as a priority."}
-{"prompt": "I was not informed my item was out of stock.", "completion": "I apologize for the lack of communication. You should have been notified right away. Please share your order number and I'll check the status and arrange a refund or alternative for you."}
-{"prompt": "I want to know if I can get a price match.", "completion": "We do offer price matching in some cases. Please share the item details and the competitor's price, and I'll check if we're able to match it for you."}
-{"prompt": "My order arrived late and I no longer need it.", "completion": "I completely understand. Please share your order number and I'll arrange a return and full refund for you, including any shipping costs given the delay was on our end."}
-{"prompt": "I want to know if my warranty is still valid.", "completion": "I can check that for you. Please share your order number or proof of purchase and I'll confirm the warranty status and what it covers."}
-{"prompt": "I want to make a complaint.", "completion": "I'm sorry to hear you've had a poor experience. I'd like to help resolve this. Could you share the details of what happened along with your order number so I can look into it and make sure it's addressed properly?"}
-{"prompt": "I received an empty box.", "completion": "I'm so sorry about that — receiving an empty box is completely unacceptable. Please share your order number and a photo of the box, and I'll arrange a replacement or full refund immediately and escalate this to our fulfilment team."}
-{"prompt": "I want to know if you have a student discount.", "completion": "Yes, we offer a student discount! You can verify your student status through our website to unlock the discount. If you need help with the verification process, let me know."}
-{"prompt": "My payment was declined but I was still charged.", "completion": "I'm sorry for the confusion. This can sometimes happen when a payment is initially declined but the hold is still placed. Please share your order number and I'll work with our billing team to clarify and reverse any incorrect charges."}
-{"prompt": "I want to know how to track my order.", "completion": "You can track your order by clicking the tracking link in your shipping confirmation email. If you can't find the email, share your order number and I'll send you the tracking details directly."}
-{"prompt": "I want to know your delivery options.", "completion": "We offer standard delivery (3–5 business days), express delivery (1–2 business days), and next-day delivery for orders placed before 2pm. Shipping costs vary depending on the option and your location."}
-{"prompt": "I want to know if I can collect my order in store.", "completion": "Yes, we do offer click and collect at selected stores. Please share your postcode and I can check which stores near you have this option available."}
-{"prompt": "I want to know if my order qualifies for free shipping.", "completion": "We offer free standard shipping on orders over £50. If your order is below that threshold, a shipping fee will apply. Would you like me to check your specific order?"}
-{"prompt": "I want to know if you offer gift wrapping.", "completion": "Yes, we offer gift wrapping for a small additional fee. You can select this option at checkout. If you've already placed your order, share your order number and I'll check if it can still be added."}
-{"prompt": "I want to know if you have a physical store.", "completion": "Yes, we have physical stores in several locations. Could you share your city or postcode and I'll let you know the nearest store to you along with its opening hours?"}
-{"prompt": "I want to know if you offer next-day delivery.", "completion": "Yes, we offer next-day delivery on orders placed before 2pm Monday to Friday. This option is available at checkout. Would you like help placing an order with next-day delivery?"}
-{"prompt": "I want to know if my order can be delivered on a specific date.", "completion": "We don't currently offer scheduled delivery dates, but we do have express and next-day options. If you need the item by a specific date, I can help you choose the right delivery option."}
-{"prompt": "I want to know if you offer bulk discounts.", "completion": "Yes, we do offer discounts for bulk orders. Could you let me know which items you're interested in and the quantity you need? I'll pass your enquiry to our sales team."}
-{"prompt": "I want to know if I can pay in instalments.", "completion": "Yes, we offer buy now pay later options through selected payment providers at checkout. If you're having trouble seeing this option, let me know and I can help."}
-{"prompt": "I want to know if you have a referral program.", "completion": "Yes, we have a referral program! You can earn credit for every friend you refer who makes a purchase. You'll find your unique referral link in your account settings."}
-{"prompt": "I want to know if you offer a military discount.", "completion": "Yes, we offer a discount for military personnel and veterans. Please share your details and proof of service and I'll apply the discount to your account."}
-{"prompt": "I want to know if you have a waitlist for out-of-stock items.", "completion": "Yes, you can join a waitlist for out-of-stock items by clicking 'Notify me when available' on the product page. You'll receive an email as soon as the item is back in stock."}
-{"prompt": "I want to know if you offer corporate accounts.", "completion": "Yes, we do offer corporate accounts with dedicated support and volume pricing. Please share your company details and I'll connect you with our corporate sales team."}
-{"prompt": "I want to know if I can use multiple discount codes.", "completion": "Unfortunately, only one discount code can be applied per order. If you have multiple codes, I'd recommend using the one with the highest value. Let me know if you need help choosing."}
-{"prompt": "I want to know if you offer a price guarantee.", "completion": "Yes, we offer a price match guarantee. If you find the same item cheaper elsewhere within 14 days of purchase, we'll refund the difference. Please share the details and your order number."}
-{"prompt": "I want to know if I can pre-order an item.", "completion": "Yes, we do offer pre-orders on selected items. If the item you're looking for shows a pre-order option, you can place your order now and it will be dispatched as soon as it's available."}
-{"prompt": "I want to know if you offer same-day delivery.", "completion": "We offer same-day delivery in selected areas for orders placed before 12pm. Could you share your postcode so I can check if this option is available for you?"}
+{"prompt": "classify: My order hasn't arrived after two weeks.", "completion": "delivery_issue"}
+{"prompt": "classify: The tracking says delivered but I never received my package.", "completion": "delivery_issue"}
+{"prompt": "classify: My shipment has been stuck in transit for 10 days.", "completion": "delivery_issue"}
+{"prompt": "classify: I was given the wrong estimated delivery date.", "completion": "delivery_issue"}
+{"prompt": "classify: My package was delivered to the wrong address.", "completion": "delivery_issue"}
+{"prompt": "classify: The courier attempted delivery but I was home the whole time.", "completion": "delivery_issue"}
+{"prompt": "classify: My order shows as out for delivery but never arrived.", "completion": "delivery_issue"}
+{"prompt": "classify: I need to change my delivery address before it ships.", "completion": "delivery_issue"}
+{"prompt": "classify: My order was returned to sender without any notification.", "completion": "delivery_issue"}
+{"prompt": "classify: The delivery estimate keeps changing and I don't know when to expect it.", "completion": "delivery_issue"}
+{"prompt": "classify: My package was left outside in the rain and is ruined.", "completion": "delivery_issue"}
+{"prompt": "classify: I ordered express delivery but it arrived standard.", "completion": "delivery_issue"}
+{"prompt": "classify: My neighbour received my package by mistake.", "completion": "delivery_issue"}
+{"prompt": "classify: The tracking number you sent me doesn't work.", "completion": "delivery_issue"}
+{"prompt": "classify: I need my order delivered by Friday for a birthday.", "completion": "delivery_issue"}
+{"prompt": "classify: I want a refund for my purchase.", "completion": "refund_request"}
+{"prompt": "classify: I'd like my money back please.", "completion": "refund_request"}
+{"prompt": "classify: I was charged but never received my order, I want a refund.", "completion": "refund_request"}
+{"prompt": "classify: The item is not what I expected and I want to return it for a refund.", "completion": "refund_request"}
+{"prompt": "classify: I changed my mind and want a full refund.", "completion": "refund_request"}
+{"prompt": "classify: I haven't received my refund yet, it's been two weeks.", "completion": "refund_request"}
+{"prompt": "classify: How long does a refund take to process?", "completion": "refund_request"}
+{"prompt": "classify: I returned the item but still haven't been refunded.", "completion": "refund_request"}
+{"prompt": "classify: I want to return this and get my money back.", "completion": "refund_request"}
+{"prompt": "classify: The product broke after one use, I want a refund.", "completion": "refund_request"}
+{"prompt": "classify: I was refunded the wrong amount.", "completion": "refund_request"}
+{"prompt": "classify: Can I get a refund if I've already opened the product?", "completion": "refund_request"}
+{"prompt": "classify: I want to return my order and get store credit.", "completion": "refund_request"}
+{"prompt": "classify: My refund was rejected but I don't understand why.", "completion": "refund_request"}
+{"prompt": "classify: I accidentally ordered twice and want a refund on one.", "completion": "refund_request"}
+{"prompt": "classify: The item I received is damaged.", "completion": "damaged_item"}
+{"prompt": "classify: My product arrived broken.", "completion": "damaged_item"}
+{"prompt": "classify: The box was completely crushed when it arrived.", "completion": "damaged_item"}
+{"prompt": "classify: There is a crack in the screen of the device I ordered.", "completion": "damaged_item"}
+{"prompt": "classify: The item looks like it was used before being sent to me.", "completion": "damaged_item"}
+{"prompt": "classify: My order arrived with parts missing.", "completion": "damaged_item"}
+{"prompt": "classify: The product stopped working after one day.", "completion": "damaged_item"}
+{"prompt": "classify: I received an empty box.", "completion": "damaged_item"}
+{"prompt": "classify: The packaging was intact but the item inside was broken.", "completion": "damaged_item"}
+{"prompt": "classify: The colour of the item is completely different from the photo.", "completion": "damaged_item"}
+{"prompt": "classify: I was sent the wrong item entirely.", "completion": "damaged_item"}
+{"prompt": "classify: The item has a manufacturing defect.", "completion": "damaged_item"}
+{"prompt": "classify: My order is missing several components.", "completion": "damaged_item"}
+{"prompt": "classify: The product has scratches all over it.", "completion": "damaged_item"}
+{"prompt": "classify: I received a counterfeit product.", "completion": "damaged_item"}
+{"prompt": "classify: I can't log into my account.", "completion": "account_problem"}
+{"prompt": "classify: My account has been locked.", "completion": "account_problem"}
+{"prompt": "classify: I forgot my password and the reset email isn't arriving.", "completion": "account_problem"}
+{"prompt": "classify: I want to delete my account.", "completion": "account_problem"}
+{"prompt": "classify: I need to update my email address.", "completion": "account_problem"}
+{"prompt": "classify: Someone has accessed my account without my permission.", "completion": "account_problem"}
+{"prompt": "classify: I can't find my order history in my account.", "completion": "account_problem"}
+{"prompt": "classify: My account shows the wrong name.", "completion": "account_problem"}
+{"prompt": "classify: I created two accounts by mistake and want to merge them.", "completion": "account_problem"}
+{"prompt": "classify: I'm not receiving any emails from you despite being subscribed.", "completion": "account_problem"}
+{"prompt": "classify: My saved addresses have disappeared from my account.", "completion": "account_problem"}
+{"prompt": "classify: I can't update my phone number in my profile.", "completion": "account_problem"}
+{"prompt": "classify: My account was suspended and I don't know why.", "completion": "account_problem"}
+{"prompt": "classify: I want to change my username.", "completion": "account_problem"}
+{"prompt": "classify: My loyalty points have disappeared from my account.", "completion": "account_problem"}
+{"prompt": "classify: I was charged twice for the same order.", "completion": "billing_issue"}
+{"prompt": "classify: My payment was declined but the money left my account.", "completion": "billing_issue"}
+{"prompt": "classify: I was charged the wrong amount.", "completion": "billing_issue"}
+{"prompt": "classify: I see an unrecognised charge from your company on my statement.", "completion": "billing_issue"}
+{"prompt": "classify: My subscription renewed even though I cancelled it.", "completion": "billing_issue"}
+{"prompt": "classify: I was charged for a free trial.", "completion": "billing_issue"}
+{"prompt": "classify: My discount code wasn't applied to my order.", "completion": "billing_issue"}
+{"prompt": "classify: I was charged shipping when my order should have been free delivery.", "completion": "billing_issue"}
+{"prompt": "classify: I want to update my payment method.", "completion": "billing_issue"}
+{"prompt": "classify: My invoice shows the wrong VAT amount.", "completion": "billing_issue"}
+{"prompt": "classify: I was not given the sale price I saw advertised.", "completion": "billing_issue"}
+{"prompt": "classify: I want to pay in instalments but the option isn't showing.", "completion": "billing_issue"}
+{"prompt": "classify: My gift card balance is showing as zero but I haven't used it.", "completion": "billing_issue"}
+{"prompt": "classify: I was charged in the wrong currency.", "completion": "billing_issue"}
+{"prompt": "classify: I need a copy of my invoice for expenses.", "completion": "billing_issue"}
+{"prompt": "classify: What materials is this product made from?", "completion": "product_question"}
+{"prompt": "classify: Does this item come with a warranty?", "completion": "product_question"}
+{"prompt": "classify: Is this product compatible with my device?", "completion": "product_question"}
+{"prompt": "classify: What sizes do you have available for this item?", "completion": "product_question"}
+{"prompt": "classify: How do I set up this product?", "completion": "product_question"}
+{"prompt": "classify: Does this come in other colours?", "completion": "product_question"}
+{"prompt": "classify: What is the weight limit for this product?", "completion": "product_question"}
+{"prompt": "classify: Is this item suitable for outdoor use?", "completion": "product_question"}
+{"prompt": "classify: How do I clean and maintain this product?", "completion": "product_question"}
+{"prompt": "classify: Does this product require batteries and are they included?", "completion": "product_question"}
+{"prompt": "classify: What is the difference between model A and model B?", "completion": "product_question"}
+{"prompt": "classify: Is this product safe for children under 3?", "completion": "product_question"}
+{"prompt": "classify: Can I use this product internationally?", "completion": "product_question"}
+{"prompt": "classify: What are the dimensions of this item?", "completion": "product_question"}
+{"prompt": "classify: Is this item in stock?", "completion": "product_question"}
+{"prompt": "classify: I want to cancel my order.", "completion": "cancellation"}
+{"prompt": "classify: Can I cancel before it ships?", "completion": "cancellation"}
+{"prompt": "classify: I placed an order by mistake and need to cancel it.", "completion": "cancellation"}
+{"prompt": "classify: I want to cancel my subscription.", "completion": "cancellation"}
+{"prompt": "classify: How do I cancel my free trial before I get charged?", "completion": "cancellation"}
+{"prompt": "classify: I want to cancel and reorder with a different address.", "completion": "cancellation"}
+{"prompt": "classify: Please cancel my order immediately.", "completion": "cancellation"}
+{"prompt": "classify: I ordered the wrong item and want to cancel.", "completion": "cancellation"}
+{"prompt": "classify: I want to stop my monthly subscription.", "completion": "cancellation"}
+{"prompt": "classify: Can I cancel part of my order?", "completion": "cancellation"}
+{"prompt": "classify: I want to cancel my order and get a refund.", "completion": "cancellation"}
+{"prompt": "classify: My order was cancelled without my permission.", "completion": "cancellation"}
+{"prompt": "classify: I want to cancel and switch to a different product.", "completion": "cancellation"}
+{"prompt": "classify: How do I cancel an order I placed an hour ago?", "completion": "cancellation"}
+{"prompt": "classify: I want to cancel my annual plan and switch to monthly.", "completion": "cancellation"}
