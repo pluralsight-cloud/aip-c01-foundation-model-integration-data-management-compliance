@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: >
+  Lambda execution role for the Bedrock Dynamic Model Selection demo.
+  Creates an IAM role with AmazonBedrockFullAccess, AWSLambdaBasicExecutionRole
+  managed policies, and an inline policy granting the minimum AppConfig
+  data-plane permissions required by the appconfigdata client.
+
+Resources:
+
+  BedrockDynamicModelRole:
+    Type: AWS::IAM::Role
+    Properties:
+      RoleName: BedrockDynamicModelRole
+      Description: Execution role for BedrockDynamicModelHandler Lambda function
+      AssumeRolePolicyDocument:
+        Version: '2012-10-17'
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: lambda.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AmazonBedrockFullAccess
+        - arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole
+      Policies:
+        - PolicyName: AppConfigReadAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Sid: AllowAppConfigDataPlane
+                Effect: Allow
+                Action:
+                  - appconfig:StartConfigurationSession
+                  - appconfig:GetLatestConfiguration
+                Resource: '*'
+
+Outputs:
+
+  RoleArn:
+    Description: ARN of the Lambda execution role — paste this into the Lambda console
+    Value: !GetAtt BedrockDynamicModelRole.Arn
+    Export:
+      Name: BedrockDynamicModelRoleArn
+
+  RoleName:
+    Description: Name of the Lambda execution role
+    Value: !Ref BedrockDynamicModelRole

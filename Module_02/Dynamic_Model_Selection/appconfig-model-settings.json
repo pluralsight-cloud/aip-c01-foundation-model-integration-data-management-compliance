@@ -1,0 +1,7 @@
+{
+  "currentModel": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+  "modelParameters": {
+    "maxTokens": 2048,
+    "temperature": 0.7
+  }
+}
