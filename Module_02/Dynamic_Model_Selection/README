@@ -1,1 +1,9 @@
 Files needed to complete the tasks in Demo:Dynamic Model Selection
+
+Use the following command to run the CloudFormation template:
+
+aws cloudformation deploy \
+  --template-file role.yaml \
+  --stack-name role \
+  --capabilities CAPABILITY_NAMED_IAM \
+  --region us-east-1
