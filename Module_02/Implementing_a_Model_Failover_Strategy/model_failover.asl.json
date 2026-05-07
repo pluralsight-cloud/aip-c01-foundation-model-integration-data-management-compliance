@@ -1,0 +1,111 @@
+{
+  "Comment": "Model Failover Strategy — Primary: Claude Sonnet 4.5, Fallback: Amazon Nova 2 Lite",
+  "StartAt": "InvokePrimaryModel",
+  "States": {
+
+    "InvokePrimaryModel": {
+      "Type": "Task",
+      "Comment": "Step 1: Try Claude Sonnet 4.5 (primary). Retry on throttling before failing over.",
+      "Resource": "arn:aws:states:::bedrock:invokeModel",
+      "Parameters": {
+        "ModelId": "us.anthropic.claude-sonnet-4-5-20250929-v1:0",
+        "ContentType": "application/json",
+        "Accept": "application/json",
+        "Body": {
+          "anthropic_version": "bedrock-2023-05-31",
+          "max_tokens": 512,
+          "messages": [
+            {
+              "role": "user",
+              "content.$": "$.prompt"
+            }
+          ]
+        }
+      },
+      "ResultSelector": {
+        "modelUsed": "Claude Sonnet 4.5",
+        "response.$": "$.Body.content[0].text"
+      },
+      "ResultPath": "$.result",
+      "Retry": [
+        {
+          "Comment": "Retry up to 2 times on throttling with exponential backoff",
+          "ErrorEquals": ["Bedrock.ThrottlingException", "Bedrock.ServiceUnavailableException"],
+          "IntervalSeconds": 2,
+          "MaxAttempts": 2,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [
+        {
+          "Comment": "Any error after retries → fall back to Nova 2 Lite",
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.primaryError",
+          "Next": "InvokeFallbackModel"
+        }
+      ],
+      "Next": "SuccessState"
+    },
+
+    "InvokeFallbackModel": {
+      "Type": "Task",
+      "Comment": "Step 2: Claude failed — invoke Amazon Nova 2 Lite as the fallback model.",
+      "Resource": "arn:aws:states:::bedrock:invokeModel",
+      "Parameters": {
+        "ModelId": "us.amazon.nova-2-lite-v1:0",
+        "ContentType": "application/json",
+        "Accept": "application/json",
+        "Body": {
+          "messages": [
+            {
+              "role": "user",
+              "content": [
+                {
+                  "text.$": "$.prompt"
+                }
+              ]
+            }
+          ],
+          "inferenceConfig": {
+            "max_new_tokens": 512
+          }
+        }
+      },
+      "ResultSelector": {
+        "modelUsed": "Amazon Nova 2 Lite (fallback)",
+        "response.$": "$.Body.output.message.content[0].text"
+      },
+      "ResultPath": "$.result",
+      "Retry": [
+        {
+          "Comment": "Retry Nova 2 Lite once on throttling",
+          "ErrorEquals": ["Bedrock.ThrottlingException", "Bedrock.ServiceUnavailableException"],
+          "IntervalSeconds": 3,
+          "MaxAttempts": 1,
+          "BackoffRate": 2
+        }
+      ],
+      "Catch": [
+        {
+          "Comment": "Both models failed — surface a clear error",
+          "ErrorEquals": ["States.ALL"],
+          "ResultPath": "$.fallbackError",
+          "Next": "BothModelsFailed"
+        }
+      ],
+      "Next": "SuccessState"
+    },
+
+    "SuccessState": {
+      "Type": "Succeed",
+      "Comment": "Return whichever model responded successfully."
+    },
+
+    "BothModelsFailed": {
+      "Type": "Fail",
+      "Error": "AllModelsUnavailable",
+      "Cause": "Both Claude Sonnet 4.5 (primary) and Amazon Nova 2 Lite (fallback) failed to respond."
+    }
+
+  }
+}
