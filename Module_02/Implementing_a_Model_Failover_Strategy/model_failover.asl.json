@@ -1,5 +1,5 @@
 {
-  "Comment": "Clip 6 Demo: Model Failover Strategy — Primary: Amazon Nova 2 Lite, Fallback: Claude Haiku 4.5",
+  "Comment": "Demo: Model Failover Strategy — Primary: Amazon Nova 2 Lite, Fallback: Claude Haiku 4.5",
   "StartAt": "InvokePrimaryModel",
   "States": {
 
