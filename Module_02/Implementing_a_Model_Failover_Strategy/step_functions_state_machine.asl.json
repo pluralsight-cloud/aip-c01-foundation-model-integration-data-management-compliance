@@ -5,7 +5,7 @@
 
     "InvokePrimaryModel": {
       "Type": "Task",
-      "Comment": "Step 1: Try Amazon Nova 2 Lite (primary). Active model, no EOL date. Retry on throttling before failing over.",
+      "Comment": "Step 1: Try Amazon Nova 2 Lite (primary). Retry on throttling before failing over.",
       "Resource": "arn:aws:states:::bedrock:invokeModel",
       "Parameters": {
         "ModelId": "us.amazon.nova-2-lite-v1:0",
@@ -54,7 +54,7 @@
 
     "InvokeFallbackModel": {
       "Type": "Task",
-      "Comment": "Step 2: Nova 2 Lite failed — fall back to Claude Haiku 4.5. Active, EOL no sooner than Oct 2026.",
+      "Comment": "Step 2: Nova 2 Lite failed — fall back to Claude Haiku 4.5.",
       "Resource": "arn:aws:states:::bedrock:invokeModel",
       "Parameters": {
         "ModelId": "us.anthropic.claude-haiku-4-5-20251001-v1:0",
