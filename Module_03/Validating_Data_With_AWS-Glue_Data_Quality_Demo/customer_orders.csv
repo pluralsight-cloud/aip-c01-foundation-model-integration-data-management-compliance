@@ -1,0 +1,21 @@
+order_id,customer_name,email,order_amount,order_date,country
+ORD-1001,Alice Johnson,alice.johnson@email.com,250.00,2024-01-15,US
+ORD-1002,Bob Smith,bob.smith@email.com,1299.99,2024-01-16,UK
+ORD-1003,Charlie Brown,charlie.brown-AT-email,89.50,2024-01-17,CA
+ORD-1004,Diana Prince,diana.prince@email.com,450.00,2024-01-18,ZZ
+ORD-1005,,emma.watson@email.com,320.00,2024-01-19,DE
+ORD-1006,Frank Castle,frank.castle@email.com,-50.00,2024-01-20,FR
+ORD-1007,Grace Hopper,,1500.00,2024-01-21,US
+ORD-1001,Henry Ford,henry.ford@email.com,750.00,2024-01-22,AU
+ORD-1009,Irene Adler,irene.adler@email.com,999999.99,2024-01-23,JP
+ORD-1010,Jack Ryan,,200.00,13/01/2024,IN
+ORD-1011,Karen Page,karen.page@email.com,,2024-01-25,BR
+ORD-1012,,luke.cage@email.com,670.00,2024-01-26,MX
+ORD-1013,Mary Jane,maryjane-no-domain,425.00,2024-01-27,US
+ORD-1014,Nick Fury,,890.00,2024-01-28,UK
+ORD-1001,Oscar Wilde,oscar.wilde@email.com,1100.00,2024-01-29,CA
+ORD-1016,Peggy Carter,peggy.carter@email.com,330.00,2024-01-30,DE
+ORD-1017,Quinn Hughes,quinn.hughes@email.com,2750.00,2024-01-31,FR
+ORD-1018,Rachel Green,rachel.green@email.com,180.00,2024-02-01,AU
+ORD-1019,Steve Rogers,steve.rogers@email.com,4200.00,2024-02-02,US
+ORD-1020,Tony Stark,tony.stark@email.com,15000.00,2024-02-03,JP

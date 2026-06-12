@@ -1,0 +1,26 @@
+Rules = [
+    ColumnExists "order_id",
+    ColumnExists "customer_name",
+    ColumnExists "email",
+    ColumnExists "order_amount",
+    ColumnExists "order_date",
+    ColumnExists "country",
+
+    Completeness "order_id" = 1.0,
+    Completeness "customer_name" >= 0.95,
+    Completeness "email" >= 0.95,
+    Completeness "order_amount" = 1.0,
+
+    Uniqueness "order_id" = 1.0,
+
+    ColumnValues "order_amount" > 0,
+    ColumnValues "order_amount" <= 50000,
+
+    ColumnValues "email" matches ".*@.*\\..*",
+
+    ColumnValues "country" in ["US", "UK", "CA", "DE", "FR", "AU", "JP", "IN", "BR", "MX"],
+
+    ColumnValues "order_date" matches "\\d{4}-\\d{2}-\\d{2}",
+
+    RowCount > 10
+]
