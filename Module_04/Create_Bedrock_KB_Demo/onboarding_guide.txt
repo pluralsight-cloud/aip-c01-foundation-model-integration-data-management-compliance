@@ -1,0 +1,34 @@
+Globex Corporation New Employee Onboarding Guide
+
+Welcome to Globex! This guide will help you get started in your first week.
+
+Day 1: Orientation
+- Report to the front desk at 9:00 AM.
+- Collect your badge, laptop, and welcome kit.
+- Complete HR paperwork (tax forms, direct deposit, emergency contacts).
+- Attend the 1-hour company overview presentation.
+- Meet your assigned buddy for lunch.
+
+Day 2-3: Systems Setup
+- Set up your email and Slack account.
+- Complete required security training modules (estimated 2 hours).
+- Request access to team-specific tools via the IT portal at it.globex.internal.
+- Set up your development environment following the Engineering Wiki.
+
+Day 4-5: Team Integration
+- Shadow a teammate through their daily workflow.
+- Attend your first team standup.
+- Review the team's current sprint board and backlog.
+- Schedule 1:1 meetings with key collaborators.
+
+First 30 Days
+- Complete all compliance training modules.
+- Deliver your first small contribution (bug fix, documentation update, etc.).
+- Attend the monthly all-hands meeting.
+- Have your first formal 1:1 with your manager to set 90-day goals.
+
+Key Contacts
+- HR: hr@globex.com or ext. 2100
+- IT Help Desk: helpdesk@globex.com or ext. 2200
+- Facilities: facilities@globex.com or ext. 2300
+- Your Buddy: Assigned on Day 1

@@ -1,0 +1,36 @@
+Globex Corporation Engineering Standards
+
+Code Review Policy
+All code changes must be reviewed by at least one other engineer before merging.
+Reviews should be completed within 24 business hours. The reviewer checks for:
+- Correctness and edge case handling
+- Test coverage (minimum 80% for new code)
+- Adherence to style guidelines
+- Security considerations
+- Performance implications
+
+Branching Strategy
+We use trunk-based development with short-lived feature branches.
+- Main branch: always deployable, protected.
+- Feature branches: prefixed with feature/, must be less than 3 days old.
+- Hotfix branches: prefixed with hotfix/, merged to main and current release.
+- Release branches: created from main, prefixed with release/v.
+
+Deployment Process
+- CI/CD pipeline runs on every push: lint, test, build, security scan.
+- Staging deployment happens automatically on merge to main.
+- Production deployment requires manual approval from a tech lead.
+- Rollback is automated; any deployment can be reverted within 5 minutes.
+
+Incident Response
+- Severity 1 (service down): Page on-call, respond within 15 minutes.
+- Severity 2 (degraded): Acknowledge within 30 minutes, resolve within 4 hours.
+- Severity 3 (minor issue): Resolve within 2 business days.
+- All incidents require a post-mortem document within 48 hours.
+
+Technology Stack
+- Backend: Python (FastAPI), Go for performance-critical services
+- Frontend: React with TypeScript
+- Database: PostgreSQL (primary), Redis (caching), DynamoDB (event store)
+- Infrastructure: AWS, Terraform, Kubernetes (EKS)
+- Observability: Datadog for metrics, PagerDuty for alerting
