@@ -4,6 +4,7 @@
         {
             "Effect": "Allow",
             "Action": [
+                "bedrock:Retrieve",
                 "bedrock:RetrieveAndGenerate",
                 "bedrock:InvokeModel",
                 "bedrock:GetInferenceProfile"
