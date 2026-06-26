@@ -1,0 +1,65 @@
+How to Reset Your Password
+
+If you have forgotten your password or need to change it for security reasons, you can reset it directly from the login page. Navigate to the sign-in screen and click the "Forgot Password" link located below the password field. You will be prompted to enter the email address associated with your account. Make sure you enter the exact email you used when creating your account, as the system is case-sensitive for email matching.
+
+After submitting your email address, the system will send a password reset link to your inbox. This link is valid for 30 minutes from the time it was generated. If you do not receive the email within 5 minutes, check your spam or junk folder. Some corporate email filters may block automated messages, so you may need to add noreply@example.com to your safe senders list. If you still cannot find the email after checking these locations, you can request a new reset link by repeating the process.
+
+When you click the reset link, you will be taken to a page where you can create a new password. Your new password must meet the following requirements: at least 12 characters long, contains at least one uppercase letter, one lowercase letter, one number, and one special character such as @, #, $, or %. You cannot reuse any of your last 10 passwords. The system will display a password strength indicator to help you choose a strong password.
+
+Once you have set your new password, you will be automatically signed in and redirected to your dashboard. All active sessions on other devices will be terminated for security purposes, so you will need to sign in again on any other device where you were previously logged in. If you have two-factor authentication enabled, you will also need to verify your identity using your configured second factor after resetting your password.
+
+If you are unable to reset your password because you no longer have access to the email address on file, you will need to contact our support team directly for identity verification. This process involves providing government-issued identification and answering security questions. Please allow 2-3 business days for manual account recovery requests to be processed.
+
+Troubleshooting Slow Internet Connection
+
+A slow internet connection can significantly impact your productivity and ability to use our services effectively. Before contacting support, there are several troubleshooting steps you can take to diagnose and potentially resolve the issue on your own. These steps address the most common causes of connectivity problems that our users experience.
+
+Start by restarting your router and modem. Unplug both devices from power, wait at least 30 seconds, then plug the modem back in first and wait for all its lights to stabilize before plugging in the router. This process clears the device memory and re-establishes your connection to your internet service provider. In many cases, this simple step resolves intermittent connectivity issues and slow speeds.
+
+Next, determine whether the issue is with your Wi-Fi connection or your internet service itself. Connect a device directly to your router using an ethernet cable and run a speed test at speedtest.net. If speeds are normal over ethernet but slow over Wi-Fi, the issue is with your wireless connection rather than your internet service. Common Wi-Fi issues include interference from other devices, distance from the router, and congestion on your current Wi-Fi channel.
+
+If your Wi-Fi is the problem, try moving closer to your router or removing obstacles between your device and the router. Walls, mirrors, and large metal objects can significantly weaken Wi-Fi signals. Consider switching from the 2.4GHz band to the 5GHz band if your router supports dual-band operation. The 5GHz band offers faster speeds but shorter range, while 2.4GHz provides better range but lower speeds and is more susceptible to interference from other household devices like microwaves and baby monitors.
+
+If speeds are slow even over a wired connection, check if other devices on your network are consuming bandwidth. Streaming video, downloading large files, or video conferencing on other devices can consume significant bandwidth. Try disconnecting other devices temporarily and re-running your speed test. If speeds improve, you may need to upgrade your internet plan to accommodate multiple simultaneous users, or configure quality of service settings on your router to prioritize certain types of traffic.
+
+If none of these steps resolve the issue and your speed test consistently shows speeds below what your ISP plan promises, contact your internet service provider. They can run diagnostics on your line and determine if there is a problem with the infrastructure serving your location. Document your speed test results with timestamps before calling, as this information will help their technical team diagnose the issue more efficiently.
+
+How to Set Up Two-Factor Authentication
+
+Two-factor authentication adds an extra layer of security to your account by requiring a second form of verification in addition to your password. Even if someone obtains your password through a data breach or phishing attack, they cannot access your account without also having access to your second factor. We strongly recommend enabling two-factor authentication for all accounts, especially those with access to sensitive information or administrative privileges.
+
+To enable two-factor authentication, navigate to your Account Settings page and select the Security tab. You will see an option labeled "Two-Factor Authentication" with a toggle to enable it. Click the toggle and you will be presented with two options for your second factor: SMS verification or an authenticator app. Each method has its own advantages, and you should choose the one that best fits your needs and security requirements.
+
+SMS verification sends a 6-digit code to your registered phone number each time you sign in. This method is convenient because it does not require installing any additional software, and most people always have their phone nearby. However, SMS verification is considered less secure than authenticator apps because SMS messages can potentially be intercepted through SIM swapping attacks or other vulnerabilities in the mobile network infrastructure.
+
+An authenticator app such as Google Authenticator, Microsoft Authenticator, or Authy generates time-based one-time passwords directly on your device. These codes change every 30 seconds and work even without an internet connection. This method is more secure than SMS because the codes never travel over a network and cannot be intercepted. We recommend this option for users who handle sensitive data or have administrative access to organizational resources.
+
+If you choose the authenticator app method, a QR code will be displayed on your screen. Open your authenticator app and use its scanning feature to capture the QR code. The app will then begin generating 6-digit codes for your account. Enter the current code displayed in your app into the verification field on the setup page to confirm that everything is configured correctly. You will also be provided with a set of backup codes that you should save in a secure location in case you lose access to your authenticator device.
+
+After setup is complete, you will be required to enter a verification code each time you sign in from a new device or browser. You can choose to remember trusted devices for up to 30 days, which reduces the frequency of verification prompts while still maintaining security. If you ever lose access to your second factor, you can use one of your backup codes to sign in and reconfigure your authentication settings.
+
+Requesting a Refund
+
+We want you to be completely satisfied with your purchase. If a product does not meet your expectations, you can request a refund through your account dashboard. Our refund policy varies depending on the type of product purchased and how much time has passed since the original transaction. Understanding our policy before making a request will help ensure a smooth refund process.
+
+To initiate a refund request, sign in to your account and navigate to Order History in your dashboard. Locate the order containing the item you wish to return and click the "Request Refund" button next to it. You will be asked to select a reason for the refund from a dropdown menu. Providing accurate information helps us improve our products and services, and some reason categories may require additional documentation or information before the refund can be processed.
+
+For digital products such as software licenses, online courses, and downloadable content, refunds are available within 14 days of purchase, provided you have not consumed more than 20 percent of the content or activated the license on more than one device. Refund requests for digital products are reviewed by our team and processed within 3-5 business days. The refund will be credited back to the original payment method used for the purchase.
+
+For physical products, you must return the item in its original condition within 30 days of delivery. The item should be in its original packaging with all accessories, manuals, and included materials. Once you initiate the refund request, you will receive a prepaid shipping label via email. Package the item securely and drop it off at any authorized shipping location. Refunds for physical products are processed within 5-7 business days after we receive and inspect the returned item.
+
+Subscription-based products can be cancelled at any time through your Account Settings page. If you cancel within the first 7 days of a new billing cycle, you will receive a full refund for that cycle. Cancellations after the 7-day window will not receive a refund for the current cycle, but you will retain access to the service until the end of your paid period. Annual subscriptions that are cancelled early may be eligible for a prorated refund depending on the remaining term.
+
+If your refund request is denied, you will receive an email explaining the reason. Common reasons for denial include exceeding the refund window, excessive consumption of digital content, or physical items returned in damaged condition. If you believe the denial was made in error, you can appeal the decision by replying to the denial email with additional context or documentation supporting your request.
+
+Contacting Customer Support
+
+Our customer support team is available through multiple channels to help you resolve any issues or answer questions about our products and services. We strive to provide fast, helpful, and friendly assistance regardless of which channel you choose. Selecting the right channel for your issue type can help ensure you receive the fastest possible resolution.
+
+Live chat is available 24 hours a day, 7 days a week through the chat icon in the bottom-right corner of our website and mobile app. Live chat is best suited for quick questions, account inquiries, and issues that can be resolved in a single conversation. Average wait times for live chat are under 2 minutes during normal business hours and under 5 minutes during peak periods. Chat transcripts are automatically saved to your account for future reference.
+
+Email support is available at support@example.com and is best suited for complex issues that may require investigation, requests that need documentation or attachments, and non-urgent inquiries. Our team responds to all emails within 24 hours during business days. For faster resolution, include your account email address, a detailed description of the issue, and any relevant screenshots or error messages. You will receive an automated confirmation when your email is received, along with a ticket number for tracking purposes.
+
+Phone support is available Monday through Friday from 9 AM to 6 PM Eastern Standard Time at 1-800-555-0199. Phone support is recommended for urgent issues that require immediate assistance, complex technical problems that benefit from real-time troubleshooting, and situations where you need to verify your identity for account security purposes. Please have your account information ready when calling to expedite the verification process.
+
+For urgent account security issues such as suspected unauthorized access, compromised credentials, or fraudulent transactions, use our emergency security hotline at 1-800-555-0100. This line is staffed 24/7 by our security operations team and has priority routing. When calling, be prepared to verify your identity through security questions and provide details about the suspicious activity you have observed. Our security team will take immediate action to protect your account while investigating the reported issue.
