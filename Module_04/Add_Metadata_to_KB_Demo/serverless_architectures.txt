@@ -1,0 +1,53 @@
+Serverless Architectures on AWS
+
+Serverless computing allows you to build and run applications without managing servers. AWS automatically provisions, scales, and manages the infrastructure required to run your code. You only pay for the compute time you consume.
+
+Key AWS Serverless Services:
+
+1. AWS Lambda - Run code without provisioning servers. Supports Python, Node.js, Java, Go, and more. Functions are triggered by events and scale automatically.
+
+2. Amazon API Gateway - Create, publish, and manage REST and WebSocket APIs at any scale. Integrates directly with Lambda for serverless backends.
+
+3. Amazon DynamoDB - A fully managed NoSQL database with single-digit millisecond performance at any scale. Perfect for serverless applications needing fast, flexible data storage.
+
+4. AWS Step Functions - Orchestrate multiple AWS services into serverless workflows using visual state machines.
+
+5. Amazon EventBridge - A serverless event bus that connects applications using events from AWS services, SaaS apps, and custom sources.
+
+Example: Building a Serverless API
+
+import json
+import boto3
+
+def lambda_handler(event, context):
+    dynamodb = boto3.resource('dynamodb')
+    table = dynamodb.Table('Products')
+    
+    # Get item from DynamoDB
+    response = table.get_item(
+        Key={'product_id': event['pathParameters']['id']}
+    )
+    
+    return {
+        'statusCode': 200,
+        'body': json.dumps(response.get('Item', {})),
+        'headers': {'Content-Type': 'application/json'}
+    }
+
+Serverless Design Patterns:
+
+- API Pattern: API Gateway + Lambda + DynamoDB for RESTful microservices
+- Event Processing: S3 + Lambda + SNS for file processing pipelines
+- Scheduled Tasks: EventBridge + Lambda for cron-like batch operations
+- Stream Processing: Kinesis + Lambda for real-time data processing
+
+Cost Optimization Tips:
+
+- Right-size Lambda memory allocation (CPU scales with memory)
+- Use provisioned concurrency for latency-sensitive functions
+- Choose DynamoDB on-demand capacity for unpredictable workloads
+- Implement caching with API Gateway or ElastiCache to reduce Lambda invocations
+
+When to Use Serverless:
+
+Serverless is ideal for event-driven workloads, APIs with variable traffic, data processing pipelines, and applications where you want to minimize operational overhead. It may not be the best fit for long-running processes (Lambda has a 15-minute timeout) or applications requiring persistent connections.
