@@ -1,3 +1,6 @@
+# ***** When running this command, replace YOUR_KB_ID with your Bedrock Knowledge Base ID *****
+
+
 aws bedrock-agent-runtime retrieve \
   --region us-east-1 \
   --knowledge-base-id YOUR_KB_ID \
