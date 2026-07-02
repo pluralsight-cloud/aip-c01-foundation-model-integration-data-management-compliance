@@ -1,0 +1,10 @@
+aws bedrock-agent-runtime retrieve \
+  --region us-east-1 \
+  --knowledge-base-id YOUR_KB_ID \
+  --retrieval-query '{"text": "BP-STAFF-003"}' \
+  --retrieval-configuration '{
+    "vectorSearchConfiguration": {
+      "numberOfResults": 3,
+      "overrideSearchType": "SEMANTIC"
+    }
+  }'
