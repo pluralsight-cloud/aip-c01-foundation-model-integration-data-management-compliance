@@ -18,7 +18,7 @@ import json
 # Configuration
 # ----------------------------------------------------------------
 REGION = "us-east-1"
-MODEL_ID = "amazon.nova-2-lite-v1:0"
+MODEL_ID = "us.amazon.nova-2-lite-v1:0"
 
 # The original user query — vague and underspecified
 USER_QUERY = "best way to learn Python"
