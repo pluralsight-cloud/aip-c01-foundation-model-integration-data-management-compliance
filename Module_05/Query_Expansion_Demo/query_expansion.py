@@ -1,4 +1,7 @@
 """
+query_expansion.py
+Query Expansion Demo — AIP-C01 Clip 10
+Usage: python3 query_expansion.py
 
 Demonstrates query expansion using Amazon Bedrock.
 Takes a vague user query and uses a foundation model to
