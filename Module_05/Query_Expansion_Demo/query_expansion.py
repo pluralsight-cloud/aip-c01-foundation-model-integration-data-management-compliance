@@ -1,4 +1,7 @@
 """
+query_expansion.py
+Query Expansion Demo — AIP-C01 Clip 10
+Usage: python3 query_expansion.py
 
 Demonstrates query expansion using Amazon Bedrock.
 Takes a vague user query and uses a foundation model to
@@ -18,7 +21,7 @@ import json
 # Configuration
 # ----------------------------------------------------------------
 REGION = "us-east-1"
-MODEL_ID = "amazon.nova-lite-v1:0"
+MODEL_ID = "amazon.nova-2-lite-v1:0"
 
 # The original user query — vague and underspecified
 USER_QUERY = "best way to learn Python"
@@ -128,7 +131,7 @@ if __name__ == "__main__":
     print()
     print("In a RAG pipeline each of these queries would now be")
     print("sent to the vector store independently. The results")
-    print("then merged and deduplicated before being passed to")
+    print("are merged and deduplicated before being passed to")
     print("the foundation model as context.")
     print()
     print("This improves retrieval coverage — documents that use")
