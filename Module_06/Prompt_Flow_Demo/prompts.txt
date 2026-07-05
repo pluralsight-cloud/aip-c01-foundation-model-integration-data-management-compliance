@@ -1,0 +1,27 @@
+== Prompt 1: Extract Key Information ==
+
+Extract the key information from the following text. List the main entities, dates, numbers, and important facts as bullet points.
+
+Text:
+{{input}}
+
+
+== Prompt 2: Analyze Results ==
+
+Analyze the following extracted information. Identify the overall sentiment, key themes, and any notable patterns or relationships between the items.
+
+Extracted information:
+{{input}}
+
+
+== Prompt 3: Generate Summary ==
+
+Based on the following analysis, generate a concise 2-3 sentence executive summary that captures the most important takeaway and recommended action.
+
+Analysis:
+{{input}}
+
+
+== Sample Input (for testing the flow) ==
+
+Acme Corp reported Q3 2024 revenue of $4.2 billion, up 15% year-over-year. CEO Jane Smith attributed growth to the new AI product line launched in June 2024, which already has 500 enterprise customers. However, operating costs rose 22% due to increased R&D spending. The company plans to expand into the European market by March 2025. Analyst ratings remain mostly positive, with 12 buy ratings and 3 hold ratings. Customer satisfaction scores dropped from 92% to 87% following a service outage on August 14, 2024.
